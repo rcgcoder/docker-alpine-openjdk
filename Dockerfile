@@ -11,6 +11,6 @@ RUN apk update \
 	/etc/init.d/sshd start \
 	adduser sae \ 
 	echo -e "test2018\ntest2018" | passwd sae \
-	echo "sae    ALL=(ALL) ALL" >> /etc/sudoers
+	echo "sae    ALL=(ALL) ALL" >> /etc/sudoers 
 	
 	
