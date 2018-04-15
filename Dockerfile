@@ -12,5 +12,6 @@ RUN 	/etc/init.d/sshd start
 RUN 	adduser sae 
 RUN 	echo -e "test2018\ntest2018" | passwd sae 
 RUN 	echo "sae    ALL=(ALL) ALL" >> /etc/sudoers
+
 	
 	
